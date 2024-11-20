@@ -1,0 +1,11 @@
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\bin\Debug\net8.0\SV21T1020464.DomainModels.deps.json
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\bin\Debug\net8.0\SV21T1020464.DomainModels.dll
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\bin\Debug\net8.0\SV21T1020464.DomainModels.pdb
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\obj\Debug\net8.0\SV21T1020464.DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\obj\Debug\net8.0\SV21T1020464.DomainModels.AssemblyInfoInputs.cache
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\obj\Debug\net8.0\SV21T1020464.DomainModels.AssemblyInfo.cs
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\obj\Debug\net8.0\SV21T1020464.DomainModels.csproj.CoreCompileInputs.cache
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\obj\Debug\net8.0\SV21T1020464.DomainModels.dll
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\obj\Debug\net8.0\refint\SV21T1020464.DomainModels.dll
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\obj\Debug\net8.0\SV21T1020464.DomainModels.pdb
+D:\MyProject\SV21T1020464\SV21T1020464.DomainModels\obj\Debug\net8.0\ref\SV21T1020464.DomainModels.dll
