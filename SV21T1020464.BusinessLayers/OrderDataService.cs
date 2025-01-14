@@ -18,7 +18,7 @@ namespace SV21T1020464.BusinessLayers
         /// <summary>
         /// Tìm kiếm và lấy danh sách đơn hàng dưới dạng phân trang
         /// </summary>
-        public static List<Order> ListOfOrders(out int rowCount, int page = 1, int pageSize = 0,
+        public static List<Order> ListOrders(out int rowCount, int page = 1, int pageSize = 0,
                                             int status = 0, DateTime? fromTime = null, DateTime? toTime = null,
                                             string searchValue = "")
         {
@@ -37,9 +37,8 @@ namespace SV21T1020464.BusinessLayers
         /// Hàm trả về mã của đơn hàng được tạo mới
         /// </summary>
         public static int InitOrder(int employeeID, int customerID,
-
-        string deliveryProvince, string deliveryAddress,
-        IEnumerable<OrderDetail> details)
+                                    string deliveryProvince, string deliveryAddress,
+                                    IEnumerable<OrderDetail> details)
 
         {
             if (details.Count() == 0)
@@ -163,7 +162,7 @@ namespace SV21T1020464.BusinessLayers
         /// <summary>
         /// Lấy danh sách các mặt hàng được bán trong đơn hàng
         /// </summary>
-        public static List<OrderDetail> ListOfOrderDetails(int orderID)
+        public static List<OrderDetail> ListOrderDetails(int orderID)
         {
             return orderDB.ListDetails(orderID).ToList();
         }
@@ -209,4 +208,3 @@ namespace SV21T1020464.BusinessLayers
         }
     }
 }
-

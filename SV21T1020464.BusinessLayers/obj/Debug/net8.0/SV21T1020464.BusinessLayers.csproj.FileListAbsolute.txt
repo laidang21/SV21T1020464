@@ -15,3 +15,4 @@ D:\MyProject\SV21T1020464\SV21T1020464.BusinessLayers\bin\Debug\net8.0\SV21T1020
 D:\MyProject\SV21T1020464\SV21T1020464.BusinessLayers\bin\Debug\net8.0\SV21T1020464.DataLayers.pdb
 D:\MyProject\SV21T1020464\SV21T1020464.BusinessLayers\bin\Debug\net8.0\SV21T1020464.DomainModels.pdb
 D:\MyProject\SV21T1020464\SV21T1020464.BusinessLayers\obj\Debug\net8.0\SV21T102.AE3DF3C1.Up2Date
+D:\MyProject\SV21T1020464\SV21T1020464.BusinessLayers\obj\Debug\net8.0\SV21T1020464.BusinessLayers.sourcelink.json

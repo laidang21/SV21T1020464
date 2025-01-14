@@ -1,0 +1,144 @@
+﻿ <!-- Header Begin -->
+<header class="header" style="background-color: #3498db; color: blue;">     
+
+    <!-- Navbar Begin -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                 <img src="~/image/logo.png" alt="logo"  style="height: 80px;">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Home/AboutUs">Về Chúng Tôi</a>
+                    </li>
+                   
+                     <li class="nav-item">
+                        <a class="nav-link" href="~/Home/Blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Home/Contact">Liên Hệ</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
+                    @{
+                        var userData = User.GetUserData();
+
+                        if (userData != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Account/Cart">
+                                    <i class="fa fa-shopping-bag"></i> 
+                                    <span class="badge bg-light text-dark position-relative"></span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle nav-link" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    xin chao: @userData.DisplayName
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                                    <li><a class="dropdown-item" href="~/Home/Edit?customerID=@userData.UserId">Sửa thông tin cá nhân</a></li>
+                                    <li><a class="dropdown-item" href="~/Account/ChangePassword">Đổi mật khẩu</a></li>
+                               
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="~/Account/Logout">Đăng xuất</a></li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a href="~/Account/Login" class="btn btn-outline-light text-black">
+                                    <i class="bi bi-box-arrow-in-right me-2"></i> Đăng nhập
+                                </a>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+</header>
+
+@section scripts {
+    <script>
+        function doSearch(page) {
+            var searchCondition = $("#frmSearchInput").serializeArray();
+            searchCondition.push({ name: "page", value: page });
+
+            var action = $("#frmSearchInput").prop("action");
+            var method = $("#frmSearchInput").prop("method");
+
+            $.ajax({
+                url: action,
+                type: method,
+                data: searchCondition,
+                success: function (data) {
+                    $("#searchResult").html(data);
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            doSearch(@Model.Page);
+            $("#frmSearchInput").submit(function (e) {
+                e.preventDefault();
+                doSearch(1);
+            });
+        });
+        $(document).ready(function () {
+            $(".dropdown-item").hover(
+                function () {
+                    $(this).css({ "opacity": "0.8", "transition": "opacity 0.3s" });
+                },
+                function () {
+                    $(this).css("opacity", "1");
+                }
+            );
+        });
+        function saveProfileChanges() {
+            const name = document.getElementById('editName').value.trim();
+            const email = document.getElementById('editEmail').value.trim();
+            const phone = document.getElementById('editPhone').value.trim();
+
+            if (!name || !email || !phone) {
+                alert('Vui lòng điền đầy đủ thông tin.');
+                return;
+            }
+
+            fetch('/api/User/UpdateProfile', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    displayName: name,
+                    email: email,
+                    phone: phone,
+                }),
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Cập nhật thông tin thành công!');
+                        location.reload();
+                    } else {
+                        alert('Có lỗi xảy ra. Vui lòng thử lại.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Có lỗi xảy ra. Vui lòng thử lại.');
+                });
+        }
+    </script>
+
+}

@@ -1,0 +1,75 @@
+﻿@model SV21T1020464.DomainModels.Customer
+<section class="section">
+<div class="box box-primary" style="max-width: 400px; margin: 20px auto; padding: 15px; border: 1px solid #ddd; border-radius: 8px; background-color: #ffffff;">
+    <div class="box-body">
+        <h4 class="text-center" style="margin-bottom: 20px; font-weight: bold;">Chỉnh sửa thông tin cá nhân</h4>
+        <form action="~/Home/Save" method="post">
+            <input type="hidden" name="@nameof(Model.CustomerID)" value="@Model.CustomerID" />
+
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="CustomerName" style="font-weight: 500;">Tên khách hàng:</label>
+                <input type="text" id="CustomerName" class="form-control" name="@nameof(Model.CustomerName)" value="@Model.CustomerName" style="padding: 8px; font-size: 14px;" />
+                @Html.ValidationMessage(nameof(Model.CustomerName))
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="ContactName" style="font-weight: 500;">Tên giao dịch:</label>
+                <input type="text" id="ContactName" class="form-control" name="@nameof(Model.ContactName)" value="@Model.ContactName" style="padding: 8px; font-size: 14px;" />
+                @Html.ValidationMessage(nameof(Model.ContactName))
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="Phone" style="font-weight: 500;">Điện thoại:</label>
+                <input type="text" id="Phone" class="form-control" name="@nameof(Model.Phone)" value="@Model.Phone" style="padding: 8px; font-size: 14px;" />
+                @Html.ValidationMessage(nameof(Model.Phone))
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="Email" style="font-weight: 500;">Email:</label>
+                <input type="email" id="Email" class="form-control" name="@nameof(Model.Email)" value="@Model.Email" style="padding: 8px; font-size: 14px;" />
+                @Html.ValidationMessage(nameof(Model.Email))
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="Address" style="font-weight: 500;">Địa chỉ:</label>
+                <input type="text" id="Address" class="form-control" name="@nameof(Model.Address)" value="@Model.Address" style="padding: 8px; font-size: 14px;" />
+                @Html.ValidationMessage(nameof(Model.Address))
+            </div>
+
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="Province" style="font-weight: 500;">Tỉnh/Thành:</label>
+                <select id="Province" class="form-control" name="@nameof(Model.Province)" style="padding: 8px; font-size: 14px;">
+                    <option value="">--Chọn Tỉnh/Thành--</option>
+                    @foreach (var province in SV21T1020464.BusinessLayers.CommonDataService.ListOfProvinces())
+
+                    {
+
+                        if (province.ProvinceName == Model.Province)
+
+                        {
+                            <option selected value="@province.ProvinceName">@province.ProvinceName</option>
+                        }
+
+                        else
+
+                        {
+                            <option value="@province.ProvinceName">@province.ProvinceName</option>
+                        }
+
+                    }
+                </select>
+                @Html.ValidationMessage(nameof(Model.Province))
+            </div>
+
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-primary" style="padding: 8px 15px; font-size: 14px;">
+                    <i class="fa fa-floppy-o"></i> Lưu dữ liệu
+                </button>
+                <a href="~/" class="btn btn-secondary" style="padding: 8px 15px; font-size: 14px; background-color: #f1f1f1; border: 1px solid #ccc; color: #333;">
+                    Quay lại
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+    </section> 

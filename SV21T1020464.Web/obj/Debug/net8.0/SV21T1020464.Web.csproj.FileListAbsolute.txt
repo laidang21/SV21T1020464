@@ -74,3 +74,4 @@ D:\MyProject\SV21T1020464\SV21T1020464.Web\bin\Debug\net8.0\SV21T1020464.DataLay
 D:\MyProject\SV21T1020464\SV21T1020464.Web\bin\Debug\net8.0\SV21T1020464.DomainModels.pdb
 D:\MyProject\SV21T1020464\SV21T1020464.Web\obj\Debug\net8.0\SV21T102.21AB1943.Up2Date
 D:\MyProject\SV21T1020464\SV21T1020464.Web\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\MyProject\SV21T1020464\SV21T1020464.Web\obj\Debug\net8.0\SV21T1020464.Web.sourcelink.json

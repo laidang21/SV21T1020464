@@ -1,0 +1,1137 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SV21T1020464.Shop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SV21T1020464.Shop.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\LayoutShop\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\LayoutShop\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\LayoutShop\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\LayoutShop\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\LayoutShop\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\LayoutShop\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\LayoutShop\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\css\\style.css",
+      "PackagePath": "staticwebassets\\LayoutShop\\css\\style.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\LayoutShop\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\details\\details-author.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\details\\details-author.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\details\\details-hero.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\details\\details-hero.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\details\\details-pic.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\details\\details-pic.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\sidebar\\sr-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\sidebar\\sr-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\sidebar\\sr-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\sidebar\\sr-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\blog\\sidebar\\sr-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\blog\\sidebar\\sr-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\breadcrumb.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\cart\\cart-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\cart\\cart-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\cart\\cart-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\categories\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\categories\\cat-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\categories\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\categories\\cat-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\categories\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\categories\\cat-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\categories\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\categories\\cat-4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\categories\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\categories\\cat-5.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\featured\\feature-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\featured\\feature-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\featured\\feature-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\featured\\feature-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\featured\\feature-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\featured\\feature-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\featured\\feature-4.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\featured\\feature-4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\featured\\feature-5.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\featured\\feature-5.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\featured\\feature-6.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\featured\\feature-6.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\featured\\feature-7.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\featured\\feature-7.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\featured\\feature-8.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\featured\\feature-8.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\hero\\banner.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\hero\\banner.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\language.png",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\language.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\latest-product\\lp-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\latest-product\\lp-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\latest-product\\lp-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\latest-product\\lp-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\latest-product\\lp-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\latest-product\\lp-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\logo.png",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\payment-item.png",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\payment-item.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\product-details-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\product-details-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\product-details-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\product-details-4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\product-details-5.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\thumb-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\thumb-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\thumb-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\details\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\details\\thumb-4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\discount\\pd-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\discount\\pd-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\discount\\pd-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\discount\\pd-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\discount\\pd-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\discount\\pd-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\discount\\pd-4.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\discount\\pd-4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\discount\\pd-5.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\discount\\pd-5.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\discount\\pd-6.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\discount\\pd-6.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\son1 (2).png",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\son1 (2).png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\son1 (3).png",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\son1 (3).png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\son1 (4).png",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\son1 (4).png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\img\\product\\son1 .jpg",
+      "PackagePath": "staticwebassets\\LayoutShop\\img\\product\\son1 .jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\index.html",
+      "PackagePath": "staticwebassets\\LayoutShop\\index.html"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\LayoutShop\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\LayoutShop\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\LayoutShop\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\LayoutShop\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\LayoutShop\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\js\\main.js",
+      "PackagePath": "staticwebassets\\LayoutShop\\js\\main.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\LayoutShop\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\LayoutShop\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\LayoutShop\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\Blog\\1.png",
+      "PackagePath": "staticwebassets\\image\\Blog\\1.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\Blog\\2.png",
+      "PackagePath": "staticwebassets\\image\\Blog\\2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\Blog\\3.png",
+      "PackagePath": "staticwebassets\\image\\Blog\\3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\Cart.png",
+      "PackagePath": "staticwebassets\\image\\Cart.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\Cart1.png",
+      "PackagePath": "staticwebassets\\image\\Cart1.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\banner 1.jpg",
+      "PackagePath": "staticwebassets\\image\\banner 1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\banner3.png",
+      "PackagePath": "staticwebassets\\image\\banner3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\banner5.png",
+      "PackagePath": "staticwebassets\\image\\banner5.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\1.png",
+      "PackagePath": "staticwebassets\\image\\products\\1.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\10.png",
+      "PackagePath": "staticwebassets\\image\\products\\10.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\11.png",
+      "PackagePath": "staticwebassets\\image\\products\\11.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\12.png",
+      "PackagePath": "staticwebassets\\image\\products\\12.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\13.png",
+      "PackagePath": "staticwebassets\\image\\products\\13.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\14.png",
+      "PackagePath": "staticwebassets\\image\\products\\14.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\15.png",
+      "PackagePath": "staticwebassets\\image\\products\\15.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\16.png",
+      "PackagePath": "staticwebassets\\image\\products\\16.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\17.png",
+      "PackagePath": "staticwebassets\\image\\products\\17.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\18.png",
+      "PackagePath": "staticwebassets\\image\\products\\18.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\19.png",
+      "PackagePath": "staticwebassets\\image\\products\\19.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\2.png",
+      "PackagePath": "staticwebassets\\image\\products\\2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\20.png",
+      "PackagePath": "staticwebassets\\image\\products\\20.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\3.png",
+      "PackagePath": "staticwebassets\\image\\products\\3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\4.png",
+      "PackagePath": "staticwebassets\\image\\products\\4.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\5.png",
+      "PackagePath": "staticwebassets\\image\\products\\5.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\6.png",
+      "PackagePath": "staticwebassets\\image\\products\\6.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671200205121898_kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671200205121898_kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671204249091375_kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671204249091375_kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671208040839788_kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671208040839788_kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671216888839614_kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671216888839614_kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671374718552763_kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671374718552763_kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671647148335195_kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671647148335195_kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671648348099509_kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671648348099509_kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671648554117230_kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671648554117230_kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671740593355965_nophoto.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671740593355965_nophoto.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638671757625148498_nophoto.png",
+      "PackagePath": "staticwebassets\\image\\products\\638671757625148498_nophoto.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638677265660591482-nophoto.png",
+      "PackagePath": "staticwebassets\\image\\products\\638677265660591482-nophoto.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638677357124737052-nophoto.png",
+      "PackagePath": "staticwebassets\\image\\products\\638677357124737052-nophoto.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638701530753403454-sach.jfif",
+      "PackagePath": "staticwebassets\\image\\products\\638701530753403454-sach.jfif"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638701550188998095-sach.jfif",
+      "PackagePath": "staticwebassets\\image\\products\\638701550188998095-sach.jfif"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638701554234203618-sach.jfif",
+      "PackagePath": "staticwebassets\\image\\products\\638701554234203618-sach.jfif"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638701573583291844-sach.jfif",
+      "PackagePath": "staticwebassets\\image\\products\\638701573583291844-sach.jfif"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638701576445669691-sach.jfif",
+      "PackagePath": "staticwebassets\\image\\products\\638701576445669691-sach.jfif"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638712583388514628-0001.png",
+      "PackagePath": "staticwebassets\\image\\products\\638712583388514628-0001.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638712614503502348-son4.png",
+      "PackagePath": "staticwebassets\\image\\products\\638712614503502348-son4.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638712690041067923-son2.png",
+      "PackagePath": "staticwebassets\\image\\products\\638712690041067923-son2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638712690500184722-son3.png",
+      "PackagePath": "staticwebassets\\image\\products\\638712690500184722-son3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638712693949228080-son2.png",
+      "PackagePath": "staticwebassets\\image\\products\\638712693949228080-son2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638712694236189776-son2.png",
+      "PackagePath": "staticwebassets\\image\\products\\638712694236189776-son2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638712694567066334-son3.png",
+      "PackagePath": "staticwebassets\\image\\products\\638712694567066334-son3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717282354841491-banner3.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\638717282354841491-banner3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717665854272232-8.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717665854272232-8.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717671873081695-4.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717671873081695-4.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717674379212337-9.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717674379212337-9.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717800201730062-2.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717800201730062-2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717803018689644-1.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717803018689644-1.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717803530439386-2.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717803530439386-2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717803970917077-3.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717803970917077-3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717805173797595-3.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717805173797595-3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717805570802018-4.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717805570802018-4.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717806023622083-5.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717806023622083-5.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717806716898930-6.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717806716898930-6.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717807046955442-7.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717807046955442-7.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717807623425505-8.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717807623425505-8.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717808013368493-9.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717808013368493-9.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717808484326857-10.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717808484326857-10.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717808859540260-11.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717808859540260-11.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717809265513862-12.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717809265513862-12.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717822589474634-1.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717822589474634-1.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717822891556378-2.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717822891556378-2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717823205537249-3.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717823205537249-3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717823583615662-4.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717823583615662-4.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717824057538672-5.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717824057538672-5.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717824309855490-6.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717824309855490-6.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717824966848249-7.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717824966848249-7.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717825268688183-8.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717825268688183-8.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717825553670242-9.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717825553670242-9.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717826016364832-10.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717826016364832-10.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717827020886092-11.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717827020886092-11.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717827683467827-12.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717827683467827-12.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717828528572293-13.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717828528572293-13.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717828848474734-14.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717828848474734-14.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717829246664539-15.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717829246664539-15.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717829882554493-16.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717829882554493-16.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\638717830123640310-17.png",
+      "PackagePath": "staticwebassets\\image\\products\\638717830123640310-17.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\7.png",
+      "PackagePath": "staticwebassets\\image\\products\\7.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\8.png",
+      "PackagePath": "staticwebassets\\image\\products\\8.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\9.png",
+      "PackagePath": "staticwebassets\\image\\products\\9.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\banner4.webp",
+      "PackagePath": "staticwebassets\\image\\products\\banner4.webp"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\kem chống nắng",
+      "PackagePath": "staticwebassets\\image\\products"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\kemchongnang.png",
+      "PackagePath": "staticwebassets\\image\\products\\kemchongnang.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\logo.png",
+      "PackagePath": "staticwebassets\\image\\products\\logo.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\nophoto.png",
+      "PackagePath": "staticwebassets\\image\\products\\nophoto.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\son1.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\son1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\son2.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\son2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\son3.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\son3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\products\\son4.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\son4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\1.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\1.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\10.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\10.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\11.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\11.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\12.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\12.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\13.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\13.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\14.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\14.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\15.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\15.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\16.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\16.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\17.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\17.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\18.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\18.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\19.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\19.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\2.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\2.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\20.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\20.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\3.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\3.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\4.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\4.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\5.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\5.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\6.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\6.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\7.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\7.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\8.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\8.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\9.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\9.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\logo.png",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\logo.png"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\son1.jpg",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\son1.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\son2.jpg",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\son2.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\son3.jpg",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\son3.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\image\\productsphoto\\son4.jpg",
+      "PackagePath": "staticwebassets\\image\\productsphoto\\son4.jpg"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\MyProject\\SV21T1020464\\SV21T1020464.Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SV21T1020464.Shop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SV21T1020464.Shop.props",
+      "PackagePath": "build\\SV21T1020464.Shop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SV21T1020464.Shop.props",
+      "PackagePath": "buildMultiTargeting\\SV21T1020464.Shop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SV21T1020464.Shop.props",
+      "PackagePath": "buildTransitive\\SV21T1020464.Shop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

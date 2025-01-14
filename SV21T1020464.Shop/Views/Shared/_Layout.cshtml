@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Các link CSS mới -->
+    <link rel="stylesheet" href="../LayoutShop/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../LayoutShop/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../LayoutShop/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../LayoutShop/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../LayoutShop/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../LayoutShop/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../LayoutShop/css/style.css" type="text/css">
+
+    <!-- File CSS cũ -->
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <style>
+        .field-validation-error {
+            color: red;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: white;;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer {
+            flex-shrink: 0;
+        }
+
+        .card-title {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .thumbnail {
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+        }
+
+        #mainImage {
+            width: 100%;
+            height: 500px;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            font-size: 1rem;
+            transition: color 0.3s ease-in-out;
+        }
+
+            .nav-link:hover {
+                color: #f8d7da;
+            }
+
+        .badge {
+            font-size: 0.8rem;
+            padding: 0.3em 0.6em;
+        }
+
+        .navbar .btn {
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+
+        .card-body a {
+            color: #000;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            .card-body a:hover {
+                color: #007bff;
+            }
+
+        .sidebar {
+            background-color: #f8f9fa;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+            .sidebar h3 {
+                font-size: 1.25rem;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+
+            .sidebar .list-group-item {
+                padding: 10px;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                margin-bottom: 10px;
+            }
+
+                .sidebar .list-group-item a {
+                    text-decoration: none;
+                    color: #333;
+                    font-size: 1rem;
+                }
+
+                    .sidebar .list-group-item a:hover {
+                        color: #FF69B4;
+                    }
+
+        .product-card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .banner {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+            .banner img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        /* Giảm khoảng trống phía trên banner */
+        .banner-container {
+            margin-top: -70px; /* Thay đổi giá trị này */
+        }
+
+        /* Nếu bạn cần điều chỉnh khoảng trống cho carousel */
+        .carousel {
+            margin-top: 10px; /* Thay đổi giá trị này */
+        }
+
+      /* Giảm khoảng trống giữa phần tìm kiếm và banner */
+.row.align-items-center {
+    margin-top: 15px;
+}
+
+/* Hoặc nếu có khoảng trống do padding trong các phần tử khác */
+.col-md-6 {
+    padding-top: 15px; /* Điều chỉnh giá trị này nếu cần */
+        }
+
+        .header {
+            position: fixed; /* Cố định phần tử */
+            top: 0; /* Canh sát mép trên */
+            left: 0;
+            width: 100%; /* Chiếm toàn bộ chiều ngang */
+            z-index: 1000; /* Đảm bảo nằm trên các phần tử khác */
+            background-color: white; /* Màu nền cho header */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng (tùy chọn) */
+        }
+         
+      .section{
+    
+      margin-top: 7rem;
+  
+ }
+     
+
+
+    
+    </style>
+</head>
+<body>
+    
+        @await Html.PartialAsync("_Header")
+    ​
+
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @{
+        await Html.RenderPartialAsync("_Footer");
+    }
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/main.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

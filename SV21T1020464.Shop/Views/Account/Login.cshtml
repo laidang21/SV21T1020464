@@ -1,0 +1,48 @@
+﻿<section class="section">
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card shadow-lg p-3" style="width: 350px; border-radius: 8px;">
+            <h2 class="text-center mb-3 fw-bold" style="font-size: 18px;">Đăng Nhập</h2>
+            <div class="d-flex justify-content-center gap-2 mb-3">
+                <!-- Nút Google -->
+                <a href="#" class="btn btn-light border rounded-circle d-flex justify-content-center align-items-center p-0" style="width: 24px; height: 24px;">
+                    <span class="fw-bold" style="font-size: 10px;">G+</span>
+                </a>
+                <!-- Nút Facebook -->
+                <a href="#" class="btn btn-light border rounded-circle d-flex justify-content-center align-items-center p-0" style="width: 24px; height: 24px;">
+                    <span class="fw-bold" style="font-size: 10px;">f</span>
+                </a>
+                <!-- Nút GitHub -->
+                <a href="#" class="btn btn-light border rounded-circle d-flex justify-content-center align-items-center p-0" style="width: 24px; height: 24px;">
+                    <span class="fw-bold" style="font-size: 10px;">Git</span>
+                </a>
+                <!-- Nút LinkedIn -->
+                <a href="#" class="btn btn-light border rounded-circle d-flex justify-content-center align-items-center p-0" style="width: 24px; height: 24px;">
+                    <span class="fw-bold" style="font-size: 10px;">in</span>
+                </a>
+            </div>
+
+            <p class="text-center text-muted mb-3" style="font-size: 12px;">hoặc sử dụng email và mật khẩu của bạn</p>
+            <form id="loginForm" method="post" action="~/Account/Login">
+                @Html.AntiForgeryToken()
+                @Html.ValidationMessage("Error")
+                <div class="mb-2">
+                    <label for="username" class="form-label" style="font-size: 12px;">Tên đăng nhập</label>
+                    <input type="text" class="form-control form-control-sm" id="username" name="username" placeholder="Nhập tên đăng nhập" required>
+                </div>
+                <div class="mb-2">
+                    <label for="password" class="form-label" style="font-size: 12px;">Mật khẩu</label>
+                    <input type="password" class="form-control form-control-sm" id="password" name="password" placeholder="Nhập mật khẩu" required>
+                </div>
+                <div class="mb-2 text-end">
+                    <a href="#" class="text-decoration-none text-muted" style="font-size: 12px;">Quên mật khẩu?</a>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-danger fw-bold" style="font-size: 14px;">Đăng Nhập</button>
+                </div>
+            </form>
+            <p class="text-center text-muted mt-3" style="font-size: 12px;">
+                Bạn chưa có tài khoản? <a href="#" class="text-decoration-none">Đăng ký ngay</a>
+            </p>
+        </div>
+    </div>
+</section>

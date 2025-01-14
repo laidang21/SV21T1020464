@@ -20,12 +20,16 @@ namespace SV21T1020464.BusinessLayers
         static CommonDataService()
         {
             string connectionString = Configuration.ConnectionString;
-            customerDB = new CustomerDAL(connectionString);
-            shipperDB = new ShipperDAL(connectionString);
-            supplierDB = new SupplierDAL(connectionString);
-            categoryDB = new CategoryDAL(connectionString);
-            employeeDB = new EmployeeDAL(connectionString);
-            provinceDB = new ProvinceDAL(connectionString);
+            customerDB = new DataLayers.SQLServer. CustomerDAL(connectionString);
+            shipperDB = new DataLayers.SQLServer.ShipperDAL(connectionString);
+            supplierDB = new DataLayers.SQLServer.SupplierDAL(connectionString);
+            categoryDB = new DataLayers.SQLServer.CategoryDAL(connectionString);
+            employeeDB = new DataLayers.SQLServer.EmployeeDAL(connectionString);
+            provinceDB = new DataLayers.SQLServer.ProvinceDAL(connectionString);
+        }
+        public static List<Customer> GetAllCustomer()
+        {
+            return customerDB.GetAll();
         }
 
         /// <summary>

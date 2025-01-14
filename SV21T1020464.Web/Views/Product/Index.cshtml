@@ -15,7 +15,14 @@
                         <option selected value="0">Chọn loại hàng</option>
                         @foreach (var p in SV21T1020464.BusinessLayers.CommonDataService.ListOfCategories(out int rowCount, Model.Page, Model.PageSize, Model.SearchValue))
                         {
-                            <option value="@Model.CategoryID">@p.CategoryName</option>
+                            if (p.CategoryID == Model.CategoryID)
+                            {
+                                <option selected value="@p.CategoryID">@p.CategoryName</option>
+                            }
+                            else
+                            {
+                                <option value="@p.CategoryID">@p.CategoryName</option>
+                            }
                         }
                     </select>
                 </div>
@@ -23,19 +30,27 @@
                     <label>Nhà cung cấp:</label>
                     <select class="form-control" name="@nameof(Model.SupplierID)">
                         <option selected value="0">Chọn nhà cung cấp</option>
-                        @foreach (var p in SV21T1020464.BusinessLayers.CommonDataService.ListOfSuppliers(out int rowCount, Model.Page, Model.PageSize, Model.SearchValue))
+                        @foreach (var s in SV21T1020464.BusinessLayers.CommonDataService.ListOfSuppliers(out int rowCount, Model.Page, Model.PageSize, Model.SearchValue))
                         {
-                            <option value="@Model.SupplierID">@p.SupplierName</option>
+                            if (s.SupplierID == Model.SupplierID)
+                            {
+                                <option selected value="@s.SupplierID">@s.SupplierName</option>
+                            }
+                            else
+                            {
+                                <option value="@s.SupplierID">@s.SupplierName</option>
+                            }
+
                         }
                     </select>
                 </div>
                 <div class="col-sm-1">
                     <label>Giá từ:</label>
-                    <input type="text" class="form-control" name="@nameof(Model.MinPrice)" value="@Model.MinPrice">
+                    <input type="text" class="form-control number-separator" name="@nameof(Model.MinPrice)" value="@Model.MinPrice.ToString("N0")">
                 </div>
                 <div class="col-sm-1">
                     <label>đến:</label>
-                    <input type="text" class="form-control" name="@nameof(Model.MaxPrice)" value="@Model.MaxPrice">
+                    <input type="text" class="form-control number-separator"  name="@nameof(Model.MaxPrice)" value="@Model.MaxPrice.ToString("N0")">
                 </div>
                 <div class="col-sm-4">
                     <label>Tên mặt hàng cần tìm:</label>
@@ -83,6 +98,14 @@
             $("#frmSearchInput").submit(function (e) {
                 e.preventDefault();
                 doSearch(1);
+            });
+            $(".number-separator").inputmask({
+                alias: "numeric",
+                groupSeparator: ",",
+                autoGroup: true,
+                digits: 0,
+                rightAlign: false,
+                removeMaskOnSubmit: true
             });
         });
 

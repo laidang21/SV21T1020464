@@ -4,11 +4,14 @@ using SV21T1020464.BusinessLayers;
 using SV21T1020464.DomainModels;
 using SV21T1020464.Web.Models;
 using SV21T1020464.Web.AppCodes;
+using Microsoft.AspNetCore.Authorization;
 
 
 
 namespace SV21T1020464.Web.Controllers
 {
+    [Authorize(Roles = $"{WebUserRoles.EMPLOYEE}, {WebUserRoles.ADMINISTRATOR}")]
+
     public class SupplierController : Controller
     {
         private const int PAGE_SIZE = 10;

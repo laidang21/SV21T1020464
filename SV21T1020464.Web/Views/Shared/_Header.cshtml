@@ -20,32 +20,90 @@
         <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
                 <!-- User Account: style can be found in dropdown.less -->
-                <li class="dropdown user user-menu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="~/themes/dist/img/tc.jpg" class="user-image" alt="User Image">
-                        <span class="hidden-xs">Lai Dang</span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <!-- User image -->
-                        <li class="user-header">
-                            <img src="~/themes/dist/img/tc.jpg" class="img-circle" alt="User Image">
-                            <p>
-                                Lai Dang
-                                <small>Member since Nov. 2012</small>
-                            </p>
+                @{
+                    var userData = User.GetUserData();
+
+                    if (userData != null)
+
+                    {
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="~/images/employees/@userData.Photo" class="user-image" alt="User Image">
+                                <span class="hidden-xs">@userData.DisplayName</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- User image -->
+                                <li class="user-header">
+                                    <img src="~/images/employees/@userData.Photo" class="img-circle" alt="User Image">
+
+                                    <p>
+                                        @userData.DisplayName
+                                    </p>
+                                </li>
+
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="~/Account/ChangePassword" class="btn btn-default btn-flat">Đổi mật khẩu</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="~/Account/Logout" class="btn btn-default btn-flat">Đăng xuất</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
-                        <!-- Menu Footer-->
+
+                    }
+
+                    else
+
+                    {
                         <li class="user-footer">
-                            <div class="pull-left">
-                                <a href="~/Account/ChangePassword" class="btn btn-default btn-flat">Đổi mật khẩu</a>
-                            </div>
-                            <div class="pull-right">
-                                <a href="~/Account/Logout" class="btn btn-default btn-flat">Thoát</a>
-                            </div>
+                            <a href="~/Account/Login" class="btn btn-default mt-2">Đăng nhập</a>
                         </li>
-                    </ul>
-                </li>
+                    }
+                }
+                <!-- Control Sidebar Toggle Button -->
             </ul>
         </div>
     </nav>
+
 </header>
+@section scripts {
+    <script>
+        function saveProfileChanges() {
+            const name = document.getElementById('editName').value.trim();
+            const email = document.getElementById('editEmail').value.trim();
+            const phone = document.getElementById('editPhone').value.trim();
+
+            if (!name || !email || !phone) {
+                alert('Vui lòng điền đầy đủ thông tin.');
+                return;
+            }
+
+            fetch('/api/User/UpdateProfile', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    displayName: name,
+                    email: email,
+                    phone: phone,
+                }),
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Cập nhật thông tin thành công!');
+                    location.reload();
+                } else {
+                    alert('Có lỗi xảy ra. Vui lòng thử lại.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Có lỗi xảy ra. Vui lòng thử lại.');
+            });
+        }
+    </script>
+}

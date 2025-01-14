@@ -1,0 +1,101 @@
+﻿@model SV21T1020464.DomainModels.Product
+@{
+}
+<section class="section">
+<main class="container my-5">
+    <div class="row">
+        <!-- Product Images -->
+        <div class="col-md-6">
+            <div class="text-center">
+                <img id="mainImage" src="~/image/products/@Model.Photo" alt="Product image" style="max-height: 400px; object-fit: contain;">
+            </div>
+          
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h4 class="fw-bold" style="margin-bottom: 10px;">@Model.ProductName</h4>
+            <h5 class="fw-bold text-danger" style="margin-bottom: 10px;">@Model.Price.ToString("N0") VNĐ</h5>
+
+            <!-- Combo Khuyến Mãi -->
+            <div class="mb-3 d-flex align-items-center">
+                <h5 class="promo-title me-3" style="margin-bottom: 0;">Combo khuyến mãi:</h5>
+                <span class="badge bg-warning text-dark me-2">Mua 3 & giảm 3%</span>
+                <span class="badge bg-warning text-dark">Mua 5 & giảm 6%</span>
+            </div>
+
+            <!-- Vận Chuyển -->
+            <div class="mb-3">
+                <p><i class="bi bi-truck"></i>Vận chuyển nhận hàng: <strong>5 Th01 - 7 Th01</strong>, phí giao <strong>0đ</strong></p>
+            </div>
+
+            <!-- An Tâm Mua Sắm -->
+            <div class="mb-3">
+                <p><i class="bi bi-shield-check"></i>An tâm mua sắm tại shop: Xử lý đơn hàng bởi Shope · Trả hàng miễn phí 15 ngày · Bảo hiểm bảo vệ</p>
+            </div>
+
+            <!-- Add to Cart Form -->
+            <form action="~/product/AddToCart" method="get">
+                <input type="hidden" name="productID" value="@Model.ProductID" />
+                <div class="d-flex align-items-center mb-3">
+                    <label for="quantity" class="me-3">Số lượng:</label>
+                    <input id="quantity" type="number" name="quantity" class="form-control text-center" value="1" min="1" style="width: 60px;">
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg w-40">Thêm vào giỏ hàng</button>
+            </form>
+        </div>
+    </div>
+
+    <hr class="my-5" />
+
+    <!-- Product Description -->
+    <div class="product-details">
+        <h6 class="product-title" style="margin-bottom: 20px;">MÔ TẢ SẢN PHẨM</h6>
+        <p class="product-name" style="margin-bottom: 0;">Tên sản phẩm: @Model.ProductName</p>
+        <p class="product-description" style="margin-top: 0;">Mô tả chi tiết: @Model.ProductDescription</p>
+    </div>
+
+
+
+    <!-- Related Products Section -->
+    <div class="related-products mb-5">
+        <h4 class="mb-4 d-inline-block me-3">Combo giảm giá</h4>
+        <span class="badge bg-danger text-white me-2 d-inline-block">Mua 3 & giảm 3%</span>
+        <span class="badge bg-danger text-white d-inline-block">Mua 5 & giảm 6%</span>
+        <div class="row mt-3">
+            @foreach (var product in SV21T1020464.BusinessLayers.ProductDataService.getSimilarProducts(Model.CategoryID))
+            {
+                var relatedOriginalPrice = product.Price * 1.1m; // Giá gốc giả định
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="~/image/products/@product.Photo" class="card-img-top" alt="@product.ProductName">
+                        <div class="card-body">
+                            <h6 class="card-title">
+                                <a href="/Product/Detail?productID=@product.ProductID">@product.ProductName</a>
+                            </h6>
+                            <p class="card-text">
+                                <span class="text-muted text-decoration-line-through">@relatedOriginalPrice.ToString("N0") VNĐ</span>
+                                <span class="text-danger fw-bold">@product.Price.ToString("N0") VNĐ</span>
+                            </p>
+                            <a href="~/Product/AddToCart?productID=@product.ProductID&quantity=1" class="btn btn-primary w-100">Thêm vào giỏ</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</main>
+    </section> 
+
+@section scripts {
+    <script>
+        // Zoom effect on main product image
+        document.querySelector('.img-zoom').addEventListener('mouseover', function () {
+            this.style.transform = 'scale(1.2)';
+            this.style.transition = 'transform 0.3s ease';
+        });
+        document.querySelector('.img-zoom').addEventListener('mouseout', function () {
+            this.style.transform = 'scale(1)';
+        });
+    </script>
+}

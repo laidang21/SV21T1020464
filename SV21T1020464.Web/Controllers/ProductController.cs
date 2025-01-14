@@ -3,221 +3,294 @@ using SV21T1020464.BusinessLayers;
 using SV21T1020464.DomainModels;
 using SV21T1020464.Web.Models;
 using SV21T1020464.Web.AppCodes;
+using Microsoft.AspNetCore.Authorization;
+
 
 
 namespace SV21T1020464.Web.Controllers
 {
+    [Authorize(Roles = $"{WebUserRoles.ADMINISTRATOR},{WebUserRoles.EMPLOYEE}")]
+
     public class ProductController : Controller
     {
-        private const int PAGE_SIZE = 20;
-        private const string PRODUCT_SEARCH_CONDITION = "ProductSearchCondition";
+
+
+        private const int PAGE_SIZE = 30;
+        private const string PRODUCT_SEARCH_CONDITON = "ProductSearchCondition";
         public IActionResult Index()
         {
-            ProductSearchInput? condition = ApplicationContext.GetSessionData<ProductSearchInput>(PRODUCT_SEARCH_CONDITION);
+            ProductSearchInput? condition = ApplicationContext.GetSessionData<ProductSearchInput>(PRODUCT_SEARCH_CONDITON);
             if (condition == null)
-                condition = new ProductSearchInput()
+                condition = new ProductSearchInput
                 {
                     Page = 1,
                     PageSize = PAGE_SIZE,
                     SearchValue = "",
                     CategoryID = 0,
                     SupplierID = 0,
+                    MinPrice = 0,
                     MaxPrice = 0,
-                    MinPrice = 0
-
                 };
             return View(condition);
         }
         public IActionResult Search(ProductSearchInput condition)
         {
             int rowCount;
-            var data = ProductDataService.ListOfProducts(out rowCount, condition.Page, condition.PageSize, condition.SearchValue ?? "", condition.CategoryID, condition.SupplierID, condition.MinPrice, condition.MaxPrice);
+            var data = ProductDataService.ListProducts(out rowCount, condition.Page, condition.PageSize, condition.SearchValue ?? "", condition.CategoryID, condition.SupplierID, condition.MinPrice, condition.MaxPrice);
             ProductSearchResult model = new ProductSearchResult()
             {
                 Page = condition.Page,
                 PageSize = condition.PageSize,
                 SearchValue = condition.SearchValue ?? "",
+                RowCount = rowCount,
                 CategoryID = condition.CategoryID,
                 SupplierID = condition.SupplierID,
-                MaxPrice = condition.MaxPrice,
                 MinPrice = condition.MinPrice,
-                RowCount = rowCount,
+                MaxPrice = condition.MaxPrice,
                 Data = data
             };
-            ApplicationContext.SetSessionData(PRODUCT_SEARCH_CONDITION, condition);
+            ApplicationContext.SetSessionData(PRODUCT_SEARCH_CONDITON, condition);
             return View(model);
+
+        }
+        public IActionResult Edit(int id)
+        {
+            ViewBag.Title = "Cập nhật mặt hàng";
+            var data = ProductDataService.GetProductById(id);
+            if (data == null)
+            {
+                return RedirectToAction("Index");
+            }
+            return View(data);
         }
         public IActionResult Create()
         {
-            ViewBag.Title = "Bổ sung mặt hàng";
-            ViewBag.Category = CommonDataService.ListOfCategories();
-            ViewBag.Supplier = CommonDataService.ListOfSuppliers();
-            Product product = new Product()
+            ViewBag.Title = "Bổ sung sản phẩm";
+            var data = new Product()
             {
                 ProductID = 0,
-                Photo = "nophoto.jpg"
+                Photo = "nophoto.png",
+                IsSelling = true
             };
-            return View("Edit", product);
+            return View("Edit", data);
         }
-        public IActionResult Edit(int id = 0)
+        public IActionResult Delete(int id)
         {
-            ViewBag.Title = "Cập nhật thông tin mặt hàng";
-
-            Product? product = ProductDataService.GetProduct(id);
-            ViewBag.Photo = ProductDataService.ListOfProductPhotos(id);
-            ViewBag.Attribute = ProductDataService.ListOfProductAttributes(id);
-            ViewBag.Category = CommonDataService.ListOfCategories();
-            ViewBag.Supplier = CommonDataService.ListOfSuppliers();
-            if (product == null)
-            {
+            var data = ProductDataService.GetProductById(id);
+            if (data == null)
                 return RedirectToAction("Index");
-            }
-            if (string.IsNullOrEmpty(product.Photo))
-                product.Photo = "nophoto.jpg";
-            return View(product);
-        }
-        [HttpPost]
-        public IActionResult Save(Product data, IFormFile? uploadPhoto)
-        {
-            ViewBag.Title = data.ProductID == 0 ? "Bổ sung mặt hàng" : "Cập nhật thông tin mặt hàng";
-            if (string.IsNullOrWhiteSpace(data.ProductName))
-            {
-                ModelState.AddModelError(nameof(data.ProductName), "Tên mặt hàng không được để trống");
-            }
-            if (string.IsNullOrWhiteSpace(data.ProductDescription))
-            {
-                ModelState.AddModelError(nameof(data.ProductDescription), "Vui lòng nhập mô tả");
-            }
-            if (string.IsNullOrWhiteSpace(data.Unit))
-            {
-                ModelState.AddModelError(nameof(data.Unit), "Nhập đơn vị");
-            }
-
-            // nếu tồn tại lỗi thì trả dữ liệu về cho view để người sử dụng nhập lại cho đúng
-            if (!ModelState.IsValid)
-            {
-                return View("Edit", data);
-            }
-
-            //Xử lý với ảnh upload (nếu có ảnh upload thì lưu ảnh và gán lại tên file ảnh mới cho product)
-            if (uploadPhoto != null)
-            {
-                string fileName = $"{DateTime.Now.Ticks}_{uploadPhoto.FileName}"; //Tên file sẽ lưu
-                string folder = Path.Combine(ApplicationContext.WebRootPath, @"images/products"); //đường dẫn đến thư mục lưu file
-                string filePath = Path.Combine(folder, fileName); //Đường dẫn đến file cần lưu D:/themes/dist/img/photo.jpg
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    uploadPhoto.CopyTo(stream);
-                }
-                data.Photo = fileName;
-            }
-
-            // Gọi chức năng xử lý dưới tầng tác nghiệp nếu quá trình kiểm soát lỗi không phát hiện lỗi đầu vào
-            if (data.ProductID == 0)
-            {
-                ProductDataService.AddProduct(data);
-            }
-            else
-            {
-                ProductDataService.UpdateProduct(data);
-            }
-            return RedirectToAction("Index");
-        }
-
-        public IActionResult Delete(int id = 0)
-        {
-            Product? product = ProductDataService.GetProduct(id);
             if (Request.Method == "POST")
             {
-                ProductDataService.DeleteProduct(id);
+                ProductDataService.DeleteProductByID(id);
                 return RedirectToAction("Index");
             }
-
-            if (product == null)
-                return RedirectToAction("Index");
-            ViewBag.AllowDelete = !ProductDataService.InUsedProduct(id);
-
-            return View(product);
+            return View(data);
         }
-        public IActionResult Photo(int id = 0, string method = "", int photoId = 0)
+        public IActionResult Photo(int id = 0, string method = "", long photoid = 0)
         {
-            ViewBag.Title = "Bổ sung ảnh mặt hàng";
-            ProductPhoto data = new ProductPhoto()
-            {
-                PhotoID = photoId,
-                ProductID = id,
-                Description = "Đang cập nhật...",
-                Photo = "nophoto.jpg"
-            };
             switch (method)
             {
                 case "add":
                     ViewBag.Title = "Bổ sung ảnh cho mặt hàng";
-                    return View("photo", data);
+
+                    var data = new ProductPhoto()
+                    {
+                        PhotoID = 0,
+                        DisplayOrder = 0,
+                        Photo = "nophoto.png",
+                        ProductID = id
+                    };
+                    return View(data);
                 case "edit":
                     ViewBag.Title = "Cập nhật ảnh cho mặt hàng";
-                    return View("photo", data);
+                    var photo = ProductDataService.GetProductPhotoByID(photoid);
+                    if (photo == null)
+                        return RedirectToAction("Edit");
+                    return View(photo);
                 case "delete":
+                    ProductDataService.DeletePhotoByID(photoid);
                     return RedirectToAction("Edit", new { id = id });
-                default: return RedirectToAction("Index");
+                default:
+                    return RedirectToAction("Index");
             }
         }
-        public IActionResult Attribute(int id = 0, string method = "", int photoId = 0)
+        public IActionResult Attribute(int id = 0, string method = "", long attributeID = 0)
         {
             switch (method)
             {
                 case "add":
-                    ViewBag.Title = "Bổ sung thuộc tính cho mặt hàng";
-                    return View();
+                    ViewBag.Title = "Bổ sung thuộc tính của mặt hàng";
+
+                    var data = new ProductAttribute()
+                    {
+                        AttributeID = 0,
+                        DisplayOrder = 0,
+                        ProductID = id
+                    };
+                    return View(data);
                 case "edit":
-                    ViewBag.Title = "Cập nhật thuộc tính cho mặt hàng";
-                    return View();
+                    ViewBag.Title = "Cập nhật thuộc tính của mặt hàng";
+                    var Attribute = ProductDataService.GetProductAttributeByID(attributeID);
+                    if (Attribute == null)
+                        return RedirectToAction("Edit");
+                    return View(Attribute);
                 case "delete":
+                    ProductDataService.DeleteAttributeByID(attributeID);
                     return RedirectToAction("Edit", new { id = id });
-                default: return RedirectToAction("Index");
+                default:
+                    return RedirectToAction("Index");
             }
         }
-
-        public IActionResult SavePhoto(ProductPhoto data, IFormFile? uploadPhoto)
+        public IActionResult Save(Product data, IFormFile? _Photo)
         {
-            if (string.IsNullOrWhiteSpace(data.Description))
+            ViewBag.Title = data.ProductID == 0 ? "Bổ sung khách hàng" : "Cập nhật khách hàng";
+            decimal _Price = Convert.ToDecimal(data.Price);
+            int _CategoryID = Convert.ToInt32(data.CategoryID);
+            int _SupplỉeiD = Convert.ToInt32(data.SupplierID);
+            if (string.IsNullOrEmpty(data.ProductName))
+                ModelState.AddModelError(nameof(data.ProductName), "Vui lòng nhập tên mặt hàng");
+            if (_CategoryID == 0)
+                ModelState.AddModelError(nameof(data.CategoryID), "Vui lòng chọn loại hàng");
+            if (_SupplỉeiD == 0)
+                ModelState.AddModelError(nameof(data.SupplierID), "Vui lòng chọn nhà cung cấp");
+            if (string.IsNullOrEmpty(data.Unit))
+                ModelState.AddModelError(nameof(data.Unit), "Vui lòng nhập đơn vị bán");
+            if (_Price == null)
+                ModelState.AddModelError(nameof(data.Price), "Vui lòng nhập giá bán");
+            if (data.Photo == null)
+                ModelState.AddModelError(nameof(data.Photo), "Vui lòng chọn ảnh");
+            if (ModelState.IsValid == false)
             {
-                ModelState.AddModelError(nameof(data.Description), "Mô tả không được");
+                return View("Edit", data);
             }
-            if (data.DisplayOrder == null)
+            if (_Photo != null)
             {
-                ModelState.AddModelError(nameof(data.DisplayOrder), "thứ tự không được để trống");
-            }
-
-            //Xử lý với ảnh upload (nếu có ảnh upload thì lưu ảnh và gán lại tên file ảnh mới cho product)
-            if (uploadPhoto != null)
-            {
-                string fileName = $"{DateTime.Now.Ticks}_{uploadPhoto.FileName}"; //Tên file sẽ lưu
-                string folder = Path.Combine(ApplicationContext.WebRootPath, @"images/products"); //đường dẫn đến thư mục lưu file
-                string filePath = Path.Combine(folder, fileName); //Đường dẫn đến file cần lưu D:/images/product/photo.jpg
+                string fileName = $"{DateTime.Now.Ticks}-{_Photo.FileName}";
+                string filePath = Path.Combine(ApplicationContext.WebRootPath, @"images\products", fileName);
 
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
-                    uploadPhoto.CopyTo(stream);
+                    _Photo.CopyTo(stream);
                 }
                 data.Photo = fileName;
             }
+            try
+            {
+                if (data.ProductID == 0)
+                {
+                    int id = ProductDataService.AddProduct(data);
+                    if (id <= 0)
+                    {
+                        ModelState.AddModelError("existed", "Mặt hàng đã tồn tai!");
+                        return View("Edit", data);
+                    }
+                }
+                else
+                {
+                    bool result = ProductDataService.UpdateProduct(data);
+                    if (result == false)
+                    {
+                        ModelState.AddModelError("existed", "Mặt hàng bị trùng");
+                        return View("Edit", data);
+                    }
+                }
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                //
+                ModelState.AddModelError("error", "Hệ thống bị gián đoạn");
+                return View("Edit", data);
+            }
 
-            // nếu tồn tại lỗi thì trả dữ liệu về cho view để người sử dụng nhập lại cho đúng
+        }
+        public IActionResult SavePhoto(ProductPhoto data, IFormFile? _Photo = null)
+        {
+            if (string.IsNullOrWhiteSpace(data.Description))
+                ModelState.AddModelError(nameof(data.Description), "Mô tả không được để trống");
+            if (data.DisplayOrder == 0)
+                ModelState.AddModelError(nameof(data.DisplayOrder), "Vui lòng chọn nhập thứ tự hiển thị");
+
+            if (!ModelState.IsValid && data.PhotoID > 0)
+            {
+                ViewBag.Title = "Cập nhật ảnh cho mặt hàng";
+                return View("Photo", data);
+            }
             if (!ModelState.IsValid)
             {
-                ViewBag.Title = data.ProductID == 0 ? "Bổ sung ảnh mặt hàng" : "Cập nhật ảnh mặt hàng";
-                return RedirectToAction("Photo", data);
+                ViewBag.Title = "Bổ sung ảnh cho mặt hàng";
+                return View("Photo", data);
             }
-
-            // Gọi chức năng xử lý dưới tầng tác nghiệp nếu quá trình kiểm soát lỗi không phát hiện lỗi đầu vào
-            if (data.ProductID == 0)
+            if (_Photo != null)
             {
-                ProductDataService.AddProductPhoto(data);
+                string fileName = $"{DateTime.Now.Ticks}_{_Photo.FileName}";
+                string filePath = Path.Combine(ApplicationContext.WebRootPath, @"images\productphotos", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    _Photo.CopyTo(stream);
+                }
+                data.Photo = fileName;
             }
+            if (data.PhotoID == 0)
+            {
+                long id = ProductDataService.AddProductPhoto(data);
+                if (id <= 0)
+                {
+                    ViewBag.Title = "Bổ sung ảnh cho mặt hàng";
+                    return View("Edit", data);
+                }
+            }
+            else
+            {
+                bool result = ProductDataService.UpdateProductPhoto(data);
+                if (!result)
+                {
+                    ViewBag.Title = "Cập nhật thông tin cho ảnh mặt hàng";
+                    return View("Edit", data);
+                }
+            }
+            return RedirectToAction("Edit", new { id = data.ProductID });
 
-            return RedirectToAction("edit", new { data.ProductID });
+        }
+        public IActionResult SaveAttribute(ProductAttribute data)
+        {
+            if (string.IsNullOrWhiteSpace(data.AttributeName))
+                ModelState.AddModelError(nameof(data.AttributeName), "Tên thuộc tính không được để trống");
+            if (string.IsNullOrWhiteSpace(data.AttributeValue))
+                ModelState.AddModelError(nameof(data.AttributeValue), "Giá trị thuộc tính không được để trống");
+            if (data.DisplayOrder == 0)
+                ModelState.AddModelError(nameof(data.DisplayOrder), "Thứ tự không được để trống ");
+
+            if (!ModelState.IsValid && data.AttributeID > 0)
+            {
+                ViewBag.Title = "Cập nhật thuộc tính của mặt hàng";
+                return View("Attribute", data);
+            }
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Title = "Bổ sung thuộc tính của mặt hàng";
+                return View("Attribute", data);
+            }
+            if (data.AttributeID == 0)
+            {
+                long id = ProductDataService.AddProductAttribute(data);
+                if (id <= 0)
+                {
+                    ViewBag.Title = "Bổ sung thuộc tính của mặt hàng";
+                    return View("Edit", data);
+                }
+            }
+            else
+            {
+                bool result = ProductDataService.UpdateProductAttribute(data);
+                if (!result)
+                {
+                    ViewBag.Title = "Cập nhật thông tin thuộc tính của ảnh mặt hàng";
+                    return View("Edit", data);
+                }
+            }
+            return RedirectToAction("Edit", new { id = data.ProductID });
         }
     }
 }
+

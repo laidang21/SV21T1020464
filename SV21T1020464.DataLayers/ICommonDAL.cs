@@ -1,4 +1,6 @@
-﻿namespace SV21T1020464.DataLayers
+﻿using SV21T1020464.DomainModels;
+
+namespace SV21T1020464.DataLayers
 {
     /// <summary>
     /// định nghĩa các phép xử lý dữ liệu thường dùng trên bảng (Customer, Employee, ...)
@@ -30,6 +32,7 @@
             /// <returns></returns>
             T? Get(int id);
 
+
             /// <summary>
             /// Bổ sung một bảng ghi nhớ vào CSDL. Hàm trả về ID của dữ liệu vừa bổ sung (nếu có)
             /// </summary>
@@ -58,6 +61,7 @@
             /// <returns></returns>
             bool InUsed(int id);
             List<T> GetAll();
+        
         }
     }
 
